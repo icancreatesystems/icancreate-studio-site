@@ -1,0 +1,20 @@
+ICANCREATE.STUDIO — NAMECHEAP CPANEL INSTALL
+
+1. In cPanel, open File Manager.
+2. Create a folder named icancreate-studio in your home directory (not inside public_html).
+3. Upload the contents of this ZIP into that folder and extract them.
+4. Open Setup Node.js App and choose Create Application.
+5. Select Node.js 22 or 24 and Production mode.
+6. Application root: icancreate-studio
+7. Application URL: select icancreate.studio and use / as the path.
+8. Application startup file: server.mjs
+9. Create the application, then click Start App.
+10. Visit https://icancreate.studio and verify these pages:
+    /parentpulse
+    /parentpulse/support
+    /parentpulse/privacy
+    /support
+    /privacy
+
+The package has no third-party runtime dependencies, so Run NPM Install is optional.
+Activate SSL for icancreate.studio and www.icancreate.studio before using these URLs in App Store Connect.
